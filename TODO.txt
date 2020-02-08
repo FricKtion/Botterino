@@ -1,0 +1,5 @@
+Add user checking functionality
+    check for Frank and respond to his messages
+    prevent users from using the bot
+
+Add the ability to respond to DM's
