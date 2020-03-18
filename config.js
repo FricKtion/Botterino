@@ -1,5 +1,5 @@
 const config = {
-    "token": "",
+    "token": "test",
     "prefix": "*"
 };
 
