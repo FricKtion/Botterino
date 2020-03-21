@@ -5,3 +5,5 @@ Add user checking functionality
 Add the ability to respond to DM's
 
 Add the ability to edit sections of the config file
+
+Updated the way custom emojis work so that the custom emoji ID isn't guild specific
