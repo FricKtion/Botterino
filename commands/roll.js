@@ -15,7 +15,7 @@ exports.run = (client, message, args) => {
         }
         
         if(roll == numDice) {
-            message.channel.send(`:PepeHands: You rolled: ${roll}`);
+            message.channel.send(`<:PepeHands:533510033015701505> You rolled: ${roll}`);
         }
         else if(roll == (numDice * dieSize)) {
             message.channel.send(`:ezChamp: You rolled: ${roll}`);
