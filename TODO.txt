@@ -11,3 +11,5 @@ Updated the way custom emojis work so that the custom emoji ID isn't guild speci
   what emoji names you nee
 
 Add the ability for the bot to create custom emojis
+
+Add sPoNgEtExT converter
