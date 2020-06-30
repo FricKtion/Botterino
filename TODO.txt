@@ -6,10 +6,12 @@ Add the ability to respond to DM's
 
 Add the ability to edit sections of the config file
 
-Updated the way custom emojis work so that the custom emoji ID isn't guild specific
+Update the way custom emojis work so that the custom emoji ID isn't guild specific
   Not possible as written, we should be able to get a list of guild emojis and search for names though. Could add to the documentation 
   what emoji names you nee
 
 Add the ability for the bot to create custom emojis
 
 Add sPoNgEtExT converter
+
+Add skinbone command that @'s Doom and links the vid
