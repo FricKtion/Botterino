@@ -12,7 +12,9 @@ Update the way custom emojis work so that the custom emoji ID isn't guild specif
 
 Add the ability for the bot to create custom emojis
 
-Add sPoNgEtExT converter
+Spongetext Enhancements:
+    no parameter = spongetext last message
+    mention user = spongetext user's last message
 
 Add a custom status message
 
