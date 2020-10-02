@@ -15,3 +15,5 @@ Add the ability for the bot to create custom emojis
 Add sPoNgEtExT converter
 
 Add a custom status message
+
+Add a *poll command
