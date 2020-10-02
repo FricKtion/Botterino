@@ -1,4 +1,4 @@
-Add user checking functionality
+Add user checking functionality (probably via roles, but look into customizing this per guild)
     check for Frank and respond to his messages
     prevent users from using the bot
 
@@ -13,3 +13,5 @@ Update the way custom emojis work so that the custom emoji ID isn't guild specif
 Add the ability for the bot to create custom emojis
 
 Add sPoNgEtExT converter
+
+Add a custom status message
