@@ -108,3 +108,5 @@ dist
 
 # Config files
 config.js
+
+package-lock.json
