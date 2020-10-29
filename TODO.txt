@@ -20,3 +20,7 @@ Add a custom status message
 
 Add a *poll command
     DM the poll instantiator the results after x amount of time (optional parameter)
+
+Package this properly for ease of installation
+
+Automate updates on my own server
