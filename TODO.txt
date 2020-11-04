@@ -20,6 +20,9 @@ Add a custom status message
 
 Add a *poll command
     DM the poll instantiator the results after x amount of time (optional parameter)
+    
+Add the ability to get full size versions of emojis
+    Delete the persons message when they ask for this
 
 Package this properly for ease of installation
 
