@@ -3,8 +3,6 @@ const config = require('./config.js');
 const Enmap = require('enmap');
 const fs = require('fs');
 
-YEP
-
 const bot = new Discord.Client();
 bot.config = config;
 
