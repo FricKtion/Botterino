@@ -12,12 +12,15 @@ class TwitchMonitor {
     }
 
     static refresh(discordBot) {
-        console.log("Checking Twitch for T1's status now...");
-
+        //console.log("Checking Twitch for T1's status now...");
+        console.log(`Last Status: ${this.Live}`);
+        
         TwitchApi.fetchStream("loltyler1")
         .then((channel) => {
+            console.log(`Channel "type": ${channel[0].type}`);
+
             if(channel.length > 0 && channel[0].type === "live") {
-                console.log("Live");
+                //console.log("Live");
 
                 if(!TwitchMonitor.Live) {
                     this.LiveNotification = channel[0].title;
@@ -31,6 +34,8 @@ class TwitchMonitor {
 
                     for(var i = 0; i < channels.length; i++) {
                         // TODO - again, some error handling here would be good
+                        console.log(`i: ${i}`);
+                        console.log(`Channel Name: ${channels[i].name}`);
                         channels[i].send(this.LiveNotification);
                     }
 
@@ -39,13 +44,13 @@ class TwitchMonitor {
                     
             }
             else {
-                console.log("Not Live");
+                //console.log("Not Live");
                 this.Live = false;
             }
         })
         .catch((err) => {
-            console.log(err);
-            console.log("Error trying to fetch T1's channel from Twitch...");
+            //console.log("Error trying to fetch T1's channel from Twitch:");
+            console.log(`Error: ${err}`);
         });
     }
 }

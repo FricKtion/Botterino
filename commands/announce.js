@@ -8,8 +8,10 @@ exports.run = (client, message, args) => {
             //===========================================================================
             var channels = [];
             client.guilds.cache.forEach((guild) => {
-                // TODO - should absolutely put some better error handling in here, a number of different issues could arise
-                var targetChannel = guild.channels.cache.filter(x => x.name === "yung-gawblins" || x. name === "general");
+                // TODO - should absolutely put some better error handling in here, 
+                //  a number of different issues could arise
+                var targetChannel = guild.channels.cache.filter(
+                    x => x.name === "yung-gawblins" || x. name === "general");
 
                 channels.push(...targetChannel);
             });
